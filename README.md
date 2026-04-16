@@ -104,7 +104,7 @@ x509-certificate-analysis/
 ├── certificate_path.txt
 │   └── Contains certificate trust chain
 │
-├── project_report.pdf
+├── project_report.docx
 │   └── Full formatted project report (for submission)
 │
 ├── screenshots/
@@ -123,10 +123,10 @@ Certificate Path:
 
 ---
 
-📘 9. Project Report (PDF)
+📘 9. Project Report (docx)
 
 A detailed project report has been created and included as:
-📄 "project_report.pdf"
+📄 "project_report.docx"
 
 It contains:
 
