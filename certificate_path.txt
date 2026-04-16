@@ -1,0 +1,5 @@
+*.google.com (Leaf Certificate)
+   ↓
+WE2 (Intermediate Certificate Authority)
+   ↓
+Google Trust Services (Root Certificate Authority)
