@@ -1,8 +1,5 @@
 🔐 X.509 Certificate Analysis (Browser-Based)
 
-"Project" (https://img.shields.io/badge/Mini%20Project-Cybersecurity-blue)
-"Method" (https://img.shields.io/badge/Method-Manual%20Analysis-green)
-"Status" (https://img.shields.io/badge/Status-Completed-brightgreen)
 
 ---
 
