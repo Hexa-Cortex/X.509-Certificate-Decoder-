@@ -1,43 +1,58 @@
-🔐 X.509 Certificate Analysis (Browser-Based)
-
-
----
-
-📌 Aim
-
-To download and analyze the SSL/TLS certificate of a website and decode its X.509 fields such as Issuer, Validity Period, Public Key, and Certificate Path.
+🔐 X.509 Certificate Analysis 
 
 ---
 
-🎯 Objectives
+📌 1. Introduction
 
-- Identify the Issuer of the certificate
-- Determine the Validity Period
-- Extract Public Key details
-- Understand the Certificate Chain (Path of Trust)
+Secure communication over the internet is achieved using SSL/TLS protocols and X.509 digital certificates.
+These certificates ensure authentication, data integrity, and encryption between client and server.
 
----
-
-🛠️ Method Used
-
-This project is done using browser-based certificate inspection (no coding required).
+This project demonstrates how to analyze a real-world SSL certificate and extract its important components.
 
 ---
 
-🔍 Procedure
+🎯 2. Aim
 
-1. Open a secure website (https://www.google.com)
-2. Click the 🔒 lock icon in the address bar
-3. Select “Certificate is valid” / Certificate Viewer
-4. Observe and record:
-   - Issuer details
-   - Validity period
-   - Public key information
-5. Identify the certificate chain
+To download and analyze the SSL/TLS certificate of a website and decode its X.509 fields such as:
+
+- Issuer
+- Validity Period
+- Public Key
+- Certificate Path
 
 ---
 
-📊 Observations
+🧠 3. Objectives
+
+- Identify certificate issuer
+- Determine validity period
+- Extract public key details
+- Understand certificate trust chain
+
+---
+
+🛠️ 4. Tools Used
+
+- Web Browser (Chrome / Mobile Browser)
+- Internet Connection
+
+---
+
+🔍 5. Procedure
+
+1. Open https://www.google.com
+2. Click 🔒 lock icon
+3. Open Certificate Viewer
+4. Observe certificate details
+5. Record:
+   - Issuer
+   - Validity Period
+   - Public Key
+6. Identify certificate chain
+
+---
+
+📊 6. Observations
 
 🔹 Website
 
@@ -45,10 +60,10 @@ This project is done using browser-based certificate inspection (no coding requi
 
 ---
 
-🔹 Issuer Details
+🔹 Issuer
 
 - Common Name (CN): WE2
-- Organization (O): Google Trust Services
+- Organization: Google Trust Services
 
 ---
 
@@ -59,14 +74,14 @@ This project is done using browser-based certificate inspection (no coding requi
 
 ---
 
-🔹 Public Key Details
+🔹 Public Key
 
 - SHA-256 fingerprint available
-- Public key extracted from certificate viewer
+- Public key extracted from certificate
 
 ---
 
-🔹 Certificate Path (Trust Chain)
+🔗 Certificate Path
 
 *.google.com
    ↓
@@ -74,16 +89,24 @@ WE2 (Intermediate CA)
    ↓
 Google Trust Services (Root CA)
 
-👉 This chain ensures the authenticity and trust of the website.
-
 ---
 
-📂 Project Structure
+📂 7. Project Structure
 
 x509-certificate-analysis/
 │
 ├── README.md
+│   └── Complete project documentation
+│
 ├── certificate_details.txt
+│   └── Contains issuer, validity, public key details
+│
+├── certificate_path.txt
+│   └── Contains certificate trust chain
+│
+├── project_report.pdf
+│   └── Full formatted project report (for submission)
+│
 ├── screenshots/
 │   ├── issuer.png
 │   ├── validity.png
@@ -91,22 +114,51 @@ x509-certificate-analysis/
 
 ---
 
-📸 Screenshots
+📄 8. certificate_path.txt
 
-Screenshots of the certificate viewer are included to provide proof of analysis.
-
----
-
-📚 Key Concepts
-
-- 🔐 X.509 Certificate: Standard for digital certificates
-- 🌐 SSL/TLS: Ensures secure communication over the internet
-- 🏢 Certificate Authority (CA): Issues digital certificates
-- 🔗 Certificate Chain: Trust hierarchy from root CA to website
+Certificate Path:
+1. *.google.com
+2. WE2
+3. Google Trust Services
 
 ---
 
-✅ Result
+📘 9. Project Report (PDF)
+
+A detailed project report has been created and included as:
+📄 "project_report.pdf"
+
+It contains:
+
+- Introduction
+- Aim
+- Procedure
+- Observations
+- Result
+- Conclusion
+
+---
+
+📸 10. Screenshots
+
+Screenshots are included in the project to show:
+
+- Issuer details
+- Validity period
+- Public key information
+
+---
+
+📚 11. Key Concepts
+
+- X.509 Certificate → Standard digital certificate format
+- SSL/TLS → Secure communication protocol
+- Certificate Authority (CA) → Trusted issuer
+- Certificate Chain → Trust hierarchy
+
+---
+
+✅ 12. Result
 
 The SSL certificate of the website was successfully analyzed.
 The following details were identified:
@@ -118,6 +170,12 @@ The following details were identified:
 
 ---
 
+🚀 13. Conclusion
+
+This project helped in understanding how websites maintain secure communication using digital certificates and trust chains.
+
+---
+
 👨‍💻 Author
 
 Your Name
@@ -125,6 +183,6 @@ Computer Science Engineering Student
 
 ---
 
-⭐ Note
+⭐ Final Note
 
-This project demonstrates practical understanding of network security and digital certificates without using any programming.
+This project demonstrates practical knowledge of network security concepts using real-world certificate analysis without coding.
