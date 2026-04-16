@@ -1,0 +1,47 @@
+Website: *.google.com
+
+-------------------------------
+X.509 Certificate Details
+-------------------------------
+
+Issued To:
+Common Name (CN): *.google.com
+Serial Number: 00:9F:6F:18:61:A7:28:DD:4A:09:7A:99:BD:CA:D3:2A:27
+
+-------------------------------
+Issuer Details:
+-------------------------------
+Common Name (CN): WE2
+Organization (O): Google Trust Services
+
+-------------------------------
+Validity Period:
+-------------------------------
+Issued On : 23 March 2026
+Expires On: 15 June 2026
+
+-------------------------------
+Public Key Details:
+-------------------------------
+SHA-256 Fingerprint (Certificate):
+48 84 82 83 03 74 3F 66 23 23 75 30 1C
+DB DC 04 25 34 9F AB ED 62 1A 31 F5 05
+C4 07 05 B9 1C 06
+
+Public Key:
+D3 19 FB B3 DF 22 EC 62 A9 06 5B F3 F1
+68 1F BB 95 F3 15 9E 58 DA 21 4E 62 12
+1E C0 35 C6 5F 5C
+
+-------------------------------
+Certificate Path (Trust Chain):
+-------------------------------
+1. *.google.com (Leaf Certificate)
+2. WE2 (Intermediate Certificate Authority)
+3. Google Trust Services (Root Certificate Authority)
+
+-------------------------------
+Result:
+-------------------------------
+The X.509 certificate of the website was successfully analyzed.
+Issuer, validity period, public key, and certificate path were identified.
